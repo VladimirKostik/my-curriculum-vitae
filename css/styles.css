@@ -33,7 +33,7 @@ ul {
 /* ===== Typography ===== */
 h1,
 h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 600;
 }
 
@@ -96,7 +96,7 @@ h3 {
 }
 
 .section-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3em;
@@ -170,10 +170,13 @@ h3 {
 /* ===== Hero ===== */
 
 .hero__name {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
- font-size: 56px;
- margin-bottom: 8px;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  font-feature-settings: "liga" 1, "kern" 1;
+  margin-bottom: 12px;
 }
 
 .hero__position {
@@ -518,6 +521,9 @@ letter-spacing: 0.02em;
    ACHIEVEMENTS SECTION (TEXT ONLY)
    ========================= */
 
+.experience_section_top {
+  margin-top: 160px;
+}
 /* Контейнер контента */
 .achievements__content {
   display: flex;
@@ -805,27 +811,6 @@ letter-spacing: 0.02em;
   }
 }
 
-/* Кнопка закрытия */
-.nav-modal__close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-
-  background: none;
-  border: none;
-
-  font-size: 24px;
-  line-height: 1;
-
-  font-family: 'Montserrat', sans-serif;
-  color: #111;
-
-  cursor: pointer;
-}
-
-.nav-modal__close:hover {
-  opacity: 0.6;
-}
 
 
 
