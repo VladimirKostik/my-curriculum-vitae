@@ -276,7 +276,13 @@ font-family: 'Montserrat', sans-serif;
    font-size: 18px;
 }
 
-
+.hero_action {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+ max-width:400px;
+}
 
 /* ===== Button ===== */
 /* ===== Resume Link ===== */
